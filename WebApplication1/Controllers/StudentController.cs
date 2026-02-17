@@ -63,7 +63,7 @@ namespace WebApplication1.Controllers
 				Address = student.Address,
 				Place = student.Place,
 				Education = student.Education,
-				Yeargap = student.Yeargap
+				
 			};
 
 			return Ok(studentDto);
